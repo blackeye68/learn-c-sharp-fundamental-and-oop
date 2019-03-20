@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complete_C_Sharp_Programming_Language", "Complete_C_Sharp_Programming_Language\Complete_C_Sharp_Programming_Language.csproj", "{DE328F95-17A0-410B-92A2-1F4435FB4AA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_01", "practice01\Practice_01.csproj", "{ADA1AC05-3C45-4C9A-A741-44DC05BC7786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DE328F95-17A0-410B-92A2-1F4435FB4AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE328F95-17A0-410B-92A2-1F4435FB4AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE328F95-17A0-410B-92A2-1F4435FB4AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA1AC05-3C45-4C9A-A741-44DC05BC7786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA1AC05-3C45-4C9A-A741-44DC05BC7786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA1AC05-3C45-4C9A-A741-44DC05BC7786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA1AC05-3C45-4C9A-A741-44DC05BC7786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

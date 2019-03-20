@@ -1,6 +1,7 @@
 using System;
+using System.Text;
 
-namespace Complete_C_Sharp_Programming_Language
+namespace Practice_01
 {
     internal class Program
     {
@@ -8,7 +9,8 @@ namespace Complete_C_Sharp_Programming_Language
         {
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Hello Ngô Anh Đức!");
             Console.ReadKey();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app!
