@@ -7,13 +7,37 @@ namespace Practice_01
     {
         private static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("Hello Ngô Anh Đức!");
-            Console.ReadKey();
+            int soluong;
+            double diemToan = 9.5;
+            int x1 = 1;
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app!
+            //long long = 15; --> tên biến giống tên cú pháp --> sai
+
+            string name = "Ngô Anh Đức";
+
+            Console.WriteLine("Hello Ngô Anh Đức!");
+            Console.WriteLine($"Ten = {name}, điểm ={diemToan}"); //cách 1: truyền hiển thị biến
+            Console.WriteLine("điểm toán = {0}, tên = {1}", diemToan, name); //cách 2: truyền và hiển thị giá trị biến
+
+            // Cách thức ép kiểu
+            double d = 1 / 2;
+            Console.WriteLine($"d={1}/{2} = {d}");
+            double d2 = (double)1 / 2;
+            Console.WriteLine($"d={1}/{2}={d2}");
+
+            double d3 = 1.0 / 2;
+            Console.WriteLine($"d={1}/{2}={d3}");
+
+            // hiển thị kiểu dữ liệu không tường minh - Implicit Type
+            var x = 15;
+            Console.WriteLine("Kiểu của x= {0}", x.GetType().ToString());
+
+            //khai báo hằng số - quy tắc Hằng số khai báo biến phải code In Hoa example khai báo pi là sai phải là PI
+            const double PI = 3.14;
+            //const double pi = 3.14; khai báo sai convension
+
+            Console.ReadLine();
         }
     }
 }
