@@ -1,0 +1,7 @@
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_04_Switch\bin\Debug\Practice_04_Switch.exe.config
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_04_Switch\bin\Debug\Practice_04_Switch.exe
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_04_Switch\bin\Debug\Practice_04_Switch.pdb
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_04_Switch\obj\Debug\Practice_04_Switch.csprojAssemblyReference.cache
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_04_Switch\obj\Debug\Practice_04_Switch.csproj.CoreCompileInputs.cache
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_04_Switch\obj\Debug\Practice_04_Switch.exe
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_04_Switch\obj\Debug\Practice_04_Switch.pdb
