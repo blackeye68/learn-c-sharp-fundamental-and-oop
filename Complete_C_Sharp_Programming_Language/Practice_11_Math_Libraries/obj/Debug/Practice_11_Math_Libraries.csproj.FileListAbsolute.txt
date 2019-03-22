@@ -1,0 +1,7 @@
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_11_Math_Libraries\bin\Debug\Practice_11_Math_Libraries.exe.config
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_11_Math_Libraries\bin\Debug\Practice_11_Math_Libraries.exe
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_11_Math_Libraries\bin\Debug\Practice_11_Math_Libraries.pdb
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_11_Math_Libraries\obj\Debug\Practice_11_Math_Libraries.csprojAssemblyReference.cache
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_11_Math_Libraries\obj\Debug\Practice_11_Math_Libraries.csproj.CoreCompileInputs.cache
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_11_Math_Libraries\obj\Debug\Practice_11_Math_Libraries.exe
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice_11_Math_Libraries\obj\Debug\Practice_11_Math_Libraries.pdb
