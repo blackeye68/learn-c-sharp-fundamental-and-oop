@@ -33,6 +33,7 @@ namespace Practice15_List
         {
             List<int> list = new List<int>();
             Random rd = new Random();
+            // thêm 10 item vào list
             for(int i = 0; i < 10; i++)
             {
                 list.Add(rd.Next(100));
@@ -42,6 +43,28 @@ namespace Practice15_List
             foreach (int x in list)
             {
                 Console.WriteLine(x + "\t");
+            }
+
+            // săp xếp các phần tử của list
+            list.Sort();
+            Console.WriteLine("Các phần tử trong list sau khi sắp xếp là:");
+            foreach (int x in list)
+            {
+                Console.WriteLine(x + "\t");
+            }
+
+            // tìm kiếm trong list
+            int k;
+            Console.WriteLine("Mời bạn nhập vào số muốn tìm:");
+            k = Convert.ToInt32(Console.ReadLine());
+            int result = list.IndexOf(k);
+            if (result < 0)
+            {
+                Console.WriteLine($"Không tìm thấy {k} trong list");
+            }
+            else
+            {
+                Console.WriteLine($"Tìm thấy {k} tại vị trí {result} trong list");
             }
         }
 
