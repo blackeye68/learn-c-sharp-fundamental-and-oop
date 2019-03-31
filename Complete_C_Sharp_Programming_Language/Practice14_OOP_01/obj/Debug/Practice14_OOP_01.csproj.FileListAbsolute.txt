@@ -1,0 +1,7 @@
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice14_OOP_01\obj\Debug\Practice14_OOP_01.csprojAssemblyReference.cache
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice14_OOP_01\obj\Debug\Practice14_OOP_01.csproj.CoreCompileInputs.cache
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice14_OOP_01\bin\Debug\Practice14_OOP_01.exe.config
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice14_OOP_01\bin\Debug\Practice14_OOP_01.exe
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice14_OOP_01\bin\Debug\Practice14_OOP_01.pdb
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice14_OOP_01\obj\Debug\Practice14_OOP_01.exe
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice14_OOP_01\obj\Debug\Practice14_OOP_01.pdb
