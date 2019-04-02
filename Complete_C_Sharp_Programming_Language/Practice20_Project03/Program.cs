@@ -8,6 +8,7 @@ namespace Practice20_Project_DictionaryApp
 {
     class Program
     {
+        static Dictionary<string, string> dictionary = new Dictionary<string, string>();
         static void Main(string[] args)
         {
             // Viết phần mềm Demo tra cứu từ điển Anh - Việt
@@ -19,6 +20,7 @@ namespace Practice20_Project_DictionaryApp
             //  5. Nâng cao: Thay đổi cấu trúc dữ liệu để làm bổ sung tra cứu từ đồng nghĩa
 
             Console.OutputEncoding = Encoding.UTF8;
+
             while (true)
             {
                 menu();
@@ -31,6 +33,7 @@ namespace Practice20_Project_DictionaryApp
                 }
             }
             Console.WriteLine("BYE BYE !");
+            Console.ReadLine();
         }
 
         private static void menu()
@@ -40,20 +43,95 @@ namespace Practice20_Project_DictionaryApp
             Console.WriteLine("3. Look-up word !");
             Console.WriteLine("4. Delete word !");
             Console.WriteLine("Bạn chọn chức năng nào ? (gõ từ 1 - 4 để chọn chức năng tương ứng)");
-            int function = int.Parse(Console.ReadLine());
-            switch (function)
+            int features = int.Parse(Console.ReadLine());
+            try
             {
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                default:
-                    Console.WriteLine("Bạn chọn nhầm chức năng rồi !");
-                    break;
+                switch (features)
+                {
+                    case 1:
+                        CreateNewWord();
+                        break;
+                    case 2:
+                        EditWord();
+                        break;
+                    case 3:
+                        SearchWord();
+                        break;
+                    case 4:
+                        DeleteWord();
+                        break;
+                    default:
+                        Console.WriteLine("Bạn chọn nhầm chức năng rồi !");
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine("Lỗi gì đó: " + ex.Message);
+            }
+   
+        }
+
+        private static void DeleteWord()
+        {
+            Console.WriteLine("Mời bạn nhập vào từ muốn xóa:");
+            string english = Console.ReadLine();
+            if (dictionary.ContainsKey(english))
+            {
+                dictionary.Remove(english);
+            }
+            else
+            {
+                Console.WriteLine($"Không tìm thấy từ [{english}] để xóa !");
+            }
+        }
+
+        private static void SearchWord()
+        {
+            Console.WriteLine("Mời bạn nhập vào từ tiếng Anh");
+            string english = Console.ReadLine();
+            if (dictionary.ContainsKey(english))
+            {
+                string vietnamese = dictionary[english];
+                Console.WriteLine($"Nghĩa của từ [{english}] là [{vietnamese}]");
+            }
+            else
+            {
+                Console.WriteLine($"Từ điển chưa có cập nhật từ [{english}]");
+            }
+        }
+
+        private static void EditWord()
+        {
+            Console.WriteLine("Nhập vào từ tiếng Anh để sửa lại nghĩa:");
+            string english = Console.ReadLine();
+            if(dictionary.ContainsKey(english) == false)
+            {
+                Console.WriteLine($"Không tìm thấy [{english}] để sửa !");
+            }
+            else
+            {
+                Console.WriteLine("Mời bạn nhập lại nghĩa tiếng Việt !");
+                string vietnamese = Console.ReadLine();
+                dictionary[english] = vietnamese;
+            }
+        }
+
+        private static void CreateNewWord()
+        {
+            Console.WriteLine("Mời bạn nhập vào từ tiếng Anh:");
+            string english = Console.ReadLine();
+            if (dictionary.ContainsKey(english))
+            {
+                Console.WriteLine($"Từ [{english}] đã tồn tại rồi !");
+            }
+            else
+            {
+                Console.WriteLine("Mời bạn nhập vào nghĩa tiếng Việt");
+                string vietnamese = Console.ReadLine();
+                dictionary.Add(english, vietnamese);
+
             }
         }
     }

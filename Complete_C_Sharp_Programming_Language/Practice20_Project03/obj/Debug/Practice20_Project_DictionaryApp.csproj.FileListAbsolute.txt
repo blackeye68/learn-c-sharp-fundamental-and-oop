@@ -4,3 +4,4 @@ E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp
 E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice20_Project03\obj\Debug\Practice20_Project_DictionaryApp.csproj.CoreCompileInputs.cache
 E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice20_Project03\obj\Debug\Practice20_Project_DictionaryApp.exe
 E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice20_Project03\obj\Debug\Practice20_Project_DictionaryApp.pdb
+E:\CSharpToturial\LearnCSharp\learn-c-sharp-fundamental-and-oop\Complete_C_Sharp_Programming_Language\Practice20_Project03\obj\Debug\Practice20_Project_DictionaryApp.csprojAssemblyReference.cache
